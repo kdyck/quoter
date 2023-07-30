@@ -1,0 +1,9 @@
+server:
+  port: 8085
+iex:
+  defaultTickers: "orcl,voo,appl"
+  scheme: "https"
+  baseUrl: "cloud.iexapis.com/stable/tops"
+  token:
+    public: ${IEX_PUB_TOKEN}
+    secret: ${IEX_SECRET_TOKEN}
